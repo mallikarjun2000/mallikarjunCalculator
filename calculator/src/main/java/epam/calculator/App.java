@@ -1,5 +1,7 @@
 package epam.calculator;
 
+import gui.MainWindow;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        MainWindow minwindow = new MainWindow();
+        minwindow.setVisible(true);
     }
 }
